@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Голос — Евгений Медведев</title>
+  <title>ГоСТ — Евгений Медведев</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Голос в голове</h1>
+    <h1>Голос Сопротивления Тишине</h1>
     <nav>
       <a href="#projects">Проекты</a>
       <a href="#manifest">Манифест</a>
