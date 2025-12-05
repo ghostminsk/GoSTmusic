@@ -3,12 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Голос — Евгений Медведев</title>
+  <title>ГоСТ — Голос Смеха Тишины</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <header class="hero">
+    <div class="noise"></div>
     <h1>Голос в голове</h1>
+    <p class="tagline">ГоСТ: Голос Смеха Тишины</p>
     <nav>
       <a href="#projects">Проекты</a>
       <a href="#manifest">Манифест</a>
@@ -17,24 +21,38 @@
   </header>
 
   <main>
-    <section id="projects">
+    <section id="projects" class="grid">
       <h2>Проекты</h2>
-      <p>Здесь будут твои книги, треки и визуальные работы.</p>
+      <article class="card">
+        <h3>«С пивКОМ!!» — трек</h3>
+        <p>Игровой урбан‑панк трек с комикс‑обложкой.</p>
+      </article>
+      <article class="card">
+        <h3>«Ограбление неба» — книга</h3>
+        <p>Поэтический PDF с иллюстрациями: звёзды, город, протест.</p>
+      </article>
     </section>
 
-    <section id="manifest">
+    <section id="manifest" class="manifest">
       <h2>Манифест</h2>
-      <p>«Голос Сопротивления Тишине» — твой личный лозунг.</p>
+      <blockquote>
+        Я — голос, который смеётся в тишине.<br>
+        Я — шум улиц, ритм сердца, крик свободы.<br>
+        Голос Смеха Тишины — это я, это город, который никогда не замолчит.
+      </blockquote>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="contact">
       <h2>Контакты</h2>
       <p>Почта: <a href="mailto:yourmail@example.com">yourmail@example.com</a></p>
+      <p>Соцсети: <a href="#">VK</a> · <a href="#">Instagram</a> · <a href="#">YouTube</a></p>
     </section>
   </main>
 
-  <footer>
+  <footer class="footer">
     <p>© Евгений Медведев — ГоСТ</p>
   </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
